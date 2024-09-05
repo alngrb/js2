@@ -20,7 +20,7 @@ alert(plosh);
 
 let chislo1 = prompt('Введите первое число', '5');
 let chislo2 = prompt('Введите второе число', '4');
-alert(`Сумма ${chislo1 + chislo2} `);
+alert(`Сумма ${+chislo1 + +chislo2} `);
 alert(`Разность ${chislo1 - chislo2} `);
 alert(`Частное ${chislo1 / chislo2} `);
 alert(`Произведение ${chislo1 * chislo2} `);
